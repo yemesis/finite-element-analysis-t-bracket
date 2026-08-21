@@ -20,14 +20,32 @@ I:
 - Compared linear and quadratic polynomial basis functions
 - Evaluated the effect of mesh refinement on solution accuracy
 - Interpreted the results to identify the most reliable simulation configuration
+## Project Visuals
 
+### Von Mises Stress Distribution
+
+Contour plot showing the distribution of Von Mises stress across the T-shaped bracket under the applied loading condition, with the highest stress concentrations occurring around the bolt holes and filleted edges.
+
+![Von Mises stress contour](figures/von-mises-stress-contour.png)
+
+### Displacement Distribution
+
+Contour plot showing the displacement magnitude across the bracket, with the greatest displacement occurring around the loaded bottom bolt hole.
+
+![Displacement contour](figures/displacement-contour.png)
+
+### Stress Mesh Convergence
+
+Stress convergence across the different mesh configurations, demonstrating the effect of mesh refinement and element selection on the reliability of the FEA solution.
+
+![Stress mesh convergence](figures/stress-mesh-convergence.png)
 ## Key Findings
 
-The analysis identified high-stress regions around the bolt holes and filleted edges, highlighting areas that could influence structural integrity.
+The analysis identified the highest stress concentrations around the bolt holes and filleted edges, with the maximum stress occurring at the bottom bolt hole where the load was applied.
 
-Mesh convergence analysis showed that **quadratic quadrilateral elements** produced the most reliable results. The converged values were approximately **138 MPa stress** and **0.0342 mm displacement**.
+Mesh refinement improved the stability and accuracy of the simulation. The results converged towards approximately **138 MPa stress** and **0.0342 mm displacement**, with **quadratic quadrilateral elements** providing the most consistent and reliable convergence.
 
-The project demonstrated the importance of mesh refinement and element selection when developing reliable finite element simulations.
+The results demonstrate the importance of both mesh refinement and element selection when producing reliable finite element simulations.
 
 ## Methods
 
